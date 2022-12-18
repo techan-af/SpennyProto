@@ -133,8 +133,6 @@ body{
 }
 
 /* scroll bar */
-
-/* width */
 ::-webkit-scrollbar {
     width: 7px;
   }
