@@ -26,26 +26,32 @@ body{
     padding-right: 0;
 }
 .logoextra{
-    width: 100px;
+    max-width: 200px;
     margin: 0;
     padding: 0;
+    padding-left: 5px;
 }
 .headerextra{
     background-color: #172129 !important;
+    color: white !important;
 }
 .btnextra{
     background-color: #172129 !important;
+}
+.btnextra:hover{
+    background-color: white!important;
+    color: black;
 }
 .iconfont {
     padding-right: 5px !important;
 }
 .secondimage{
-    height: auto;
-    width: 10%;
+    max-height: auto;
+    max-width: 10%;
 }
 .thirdimage{
-    width: 30%;
-    height: 380px;
+    max-width: 30%;
+    max-height: 380px;
     /* height: 10%; */
 }
 .thirddiv{
@@ -103,14 +109,25 @@ body{
     border: none;
     border-radius: 7px;
 }
+#submit-btn:hover{
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+}
 
 .whatdo{
     overflow: hidden;
     padding: 0 0 !important;
-    width: 90% !important;
+    max-width: 90% !important;
 }
 .whatwe{
     display: block;
     overflow: hidden;
 }
-
+.lister{
+    color: white !important;
+    padding-top: 20px;
+}
+.lister:hover{
+    color: rgb(103, 103, 103) !important;
+}
