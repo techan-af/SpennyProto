@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.extra{
+    margin-left: 20px;
+}
+.imgextra{
+    width: 80%;
+    height: 80%;
+}
+.logoextra{
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+.headerextra{
+    background-color: #172129 !important;
+}
+.btnextra{
+    background-color: #172129 !important;
+}
+.iconfont {
+    padding-right: 5px !important;
+}
