@@ -40,8 +40,8 @@ body{
     padding-right: 5px !important;
 }
 .secondimage{
-    height: 300px;
-    width: auto;
+    height: auto;
+    width: 10%;
 }
 .thirdimage{
     width: 30%;
@@ -103,3 +103,14 @@ body{
     border: none;
     border-radius: 7px;
 }
+
+.whatdo{
+    overflow: hidden;
+    padding: 0 0 !important;
+    width: 90% !important;
+}
+.whatwe{
+    display: block;
+    overflow: hidden;
+}
+
